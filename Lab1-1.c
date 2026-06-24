@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(void) {
-    char name[100];
-    scanf("%99s", name);
-    printf("Hello, %s\nWelcome to C Programming", name);
+int main(){
+    char name[50];
+    scanf("%s", name);
+    printf("Hello, %s\n", name);
+    printf("Welcome to C Programming\n");
     return 0;
 }

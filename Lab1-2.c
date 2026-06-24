@@ -4,7 +4,7 @@ int main() {
     char name[50];
     int age;
 
-    scanf("%49s", name);
+    scanf("%s", name);
     scanf("%d", &age);
 
     printf("My name is %s\n", name);
