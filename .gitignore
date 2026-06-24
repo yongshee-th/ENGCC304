@@ -1,0 +1,21 @@
+# Ignore object files and compiled binaries
+*.o
+*.out
+a.out
+*.exe
+
+# Ignore build directories
+build/
+bin/
+obj/
+
+# Ignore editor swap/temp files
+*~
+*.swp
+*.swo
+
+# Ignore macOS metadata
+.DS_Store
+
+# Ignore IDE/project settings
+.vscode/
