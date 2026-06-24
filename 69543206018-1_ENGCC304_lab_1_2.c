@@ -5,7 +5,7 @@ int main() {
     int age;
 
     scanf("%s", name);
-    scanf("%d", &age);
+    scanf("%d", age);
 
     printf("My name is %s\n", name);
     printf("I am %d years old.\n", age);
